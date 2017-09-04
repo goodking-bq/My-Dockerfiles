@@ -1,1 +1,1 @@
-from gcr.io/google_containers/nginx-ingress-controller:0.9.0
+from gcr.io/google_containers/nginx-ingress-controller:v0.9.0
