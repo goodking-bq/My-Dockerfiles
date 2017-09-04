@@ -1,1 +1,1 @@
-gcr.io/google_containers/defaultbackend:1.0
+from gcr.io/google_containers/defaultbackend:1.0
