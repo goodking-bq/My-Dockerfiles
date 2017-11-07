@@ -1,0 +1,1 @@
+from quay.io/prometheus/prometheus
