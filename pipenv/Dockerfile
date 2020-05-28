@@ -22,7 +22,7 @@ RUN apk add --no-cache --update \
     && echo '$TZ' > /etc/timezone
  
     
-RUN easy_install-3.7 pip 
+RUN easy_install-3.8 pip 
 RUN pip3 install --no-cache-dir pipenv
 
 ENV DEBIAN_FRONTEND noninteractive
