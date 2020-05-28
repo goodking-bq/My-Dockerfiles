@@ -1,5 +1,4 @@
-#FROM heroku/heroku:18-build
-FROM alpine:3.10
+FROM alpine
 
 
 # 设置时区为上海
