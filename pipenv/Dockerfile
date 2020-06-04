@@ -14,6 +14,7 @@ COPY ./.pydistutils.cfg /root/.pydistutils.cfg
 RUN apk add --no-cache --update \
     python3 \
     python3-dev \
+    py3-pip \
     build-base \
     libffi-dev \
     openssl-dev \
@@ -23,7 +24,6 @@ RUN apk add --no-cache --update \
     && echo '$TZ' > /etc/timezone
  
     
-RUN easy_install-3.8 pip 
 RUN pip3 install --no-cache-dir pipenv
 
 ENV DEBIAN_FRONTEND noninteractive
