@@ -18,6 +18,7 @@ RUN apk add --no-cache --update \
     libffi-dev \
     openssl-dev \
     tzdata \
+    busybox-extras \
     && ln -snf /usr/share/zoneinfo/$TZ /etc/localtime \
     && echo '$TZ' > /etc/timezone
  
