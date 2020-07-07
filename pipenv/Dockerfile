@@ -44,7 +44,8 @@ ONBUILD COPY Pipfile Pipfile
 ONBUILD COPY Pipfile.lock Pipfile.lock
 
 # -- Install dependencies:
-ONBUILD RUN set -ex && pipenv install --clear --system
+ONBUILD RUN pipenv install --clear --system --verbose
+#ONBUILD RUN set -ex && pipenv install --clear --system
 
 # --------------------
 # - Using This File: -
