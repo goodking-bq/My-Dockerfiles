@@ -24,7 +24,7 @@ RUN apk add --no-cache --update \
     && echo '$TZ' > /etc/timezone
  
     
-RUN pip3 install --no-cache-dir pipenv
+RUN pip3 install --no-cache-dir pipenv-2018.11.26
 
 ENV DEBIAN_FRONTEND noninteractive
 ENV LC_ALL C.UTF-8
